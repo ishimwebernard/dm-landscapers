@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="flex flex-col">
          <Navbar fluid rounded>
-      <Navbar.Brand href="https://flowbite-react.com">
+      <Navbar.Brand href="/">
         <img src="https://res.cloudinary.com/bn47/image/upload/v1730644986/md-gardeners_uldkoq.png" className="h-24 w-24 mr-3" alt="Flowbite React Logo" />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">DM Landscapers</span>
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">MD Landscapers</span>
       </Navbar.Brand>
       <div className="flex md:order-2">
         <Button>Get started</Button>
@@ -24,7 +24,7 @@ function App() {
         <Navbar.Link href="#" active>
           Home
         </Navbar.Link>
-        <Navbar.Link href="#">About</Navbar.Link>
+        <Navbar.Link href="/about">About</Navbar.Link>
         <Navbar.Link href="#">Our Work</Navbar.Link>
         <Navbar.Link href="#">Contact Us</Navbar.Link>
       </Navbar.Collapse>
@@ -118,9 +118,9 @@ function App() {
 
     </Accordion>
     </div>
-    <div className="bg-cover bg-no-repeat bg-[url('https://res.cloudinary.com/bn47/image/upload/v1730656464/radiant-gradient_ljmty6.png')] py-40">
+    <div className="bg-cover bg-no-repeat bg-[url('https://res.cloudinary.com/bn47/image/upload/v1730665026/subtle-prism_eaxuhq.png')] py-40">
           <p className="font-bold text-xl text-center mt-4 mb-4 ">Why choose MD LandScapers?</p>
-   <div className="bg-transparent flex md:flex-row sm: flex-col sm:space-y-2 md:space-x-4 justify-center items-top px-20 align-top">
+   <div className="bg-white/50 flex md:flex-row sm: flex-col sm:space-y-2 md:space-x-4 justify-center items-top px-20 align-top">
     <Card
       className="max-w-sm bg-transparent"
     >
@@ -152,10 +152,6 @@ function App() {
     </Card>
     </div>
     </div>
-
- 
-
-    <p className="font-bold text-xl text-center mt-4 mb-4">About Us</p>
     <Footer container>
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
