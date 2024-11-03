@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import AboutUs from './aboutus'
+import Contact from './contactus'
 import reportWebVitals from './reportWebVitals';
 
 
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <AboutUs />
+  },
+  {
+    path: "/contactus",
+    element: <Contact />
   }
 
 ])

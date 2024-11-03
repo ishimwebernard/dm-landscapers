@@ -2,7 +2,6 @@ import { Button, Navbar } from "flowbite-react";
 import { Card } from "flowbite-react";
 import { Footer } from "flowbite-react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
-import Image from "next/image";
 
 export default function AboutUs(){
     return (
@@ -22,7 +21,7 @@ export default function AboutUs(){
         </Navbar.Link>
         <Navbar.Link href="/about" active>About</Navbar.Link>
         <Navbar.Link href="#">Our Work</Navbar.Link>
-        <Navbar.Link href="#">Contact Us</Navbar.Link>
+        <Navbar.Link href="/contactus">Contact Us</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
     <div className="bg-[url('https://res.cloudinary.com/bn47/image/upload/v1730644003/IMG-20241103-WA0007_dm1ylf.jpg')] bg-cover h-96">
@@ -66,29 +65,23 @@ All products      </p>
 
     <div>
         <p className="text-2xl text-center font-bold mt-10 mb-6">Meet the team</p>
-        <div className="grid grid-cols-2">
-        <Card
-      className="max-w-sm"
-      renderImage={() => <Image width={500} height={500} src="/images/blog/image-1.jpg" alt="image 1" />}
-    >
+        <div className="flex flex-col justify-center items-center">
+        <div className="grid grid-cols-2 space-x-2 py-24">
+        <Card className="max-w-sm" imgSrc="https://res.cloudinary.com/bn47/image/upload/v1730644986/md-gardeners_uldkoq.png" horizontal>
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        Noteworthy technology acquisitions 2021
+      Team leader (Senior Landscaper)
       </h5>
       <p className="font-normal text-gray-700 dark:text-gray-400">
-        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-      </p>
+      Maureen Yairo is a graduate in horticulture with a BSc in Horticulture who has vast experience in landscape management and horticulture value chains. She graduated from the Lilongwe University of Agriculture and Natural Resources in 2019. She has worked for LUANAR as lab assistant for one year from 2020 to 2021. Prior to that she has also worked with Child Legacy and Bvumbwe Research in horticulture field.      </p>
     </Card>
-    <Card
-      className="max-w-sm"
-      renderImage={() => <Image width={500} height={500} src="/images/blog/image-1.jpg" alt="image 1" />}
-    >
+    <Card className="max-w-sm" imgSrc="https://res.cloudinary.com/bn47/image/upload/v1730644986/md-gardeners_uldkoq.png" horizontal>
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        Noteworthy technology acquisitions 2021
+      Landscape designer
       </h5>
       <p className="font-normal text-gray-700 dark:text-gray-400">
-        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-      </p>
+      Carolyn Lungu is a graduate in horticulture with a BSc in Horticulture who has vast experience in landscape management and horticulture value chains. She graduated from the Lilongwe University of Agriculture and Natural Resources in 2019. She works with ministry of works as an architecture from 2020 to 2023.      </p>
     </Card>
+        </div>
         </div>
     </div>
     <Footer container>

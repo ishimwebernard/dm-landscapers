@@ -26,7 +26,7 @@ function App() {
         </Navbar.Link>
         <Navbar.Link href="/about">About</Navbar.Link>
         <Navbar.Link href="#">Our Work</Navbar.Link>
-        <Navbar.Link href="#">Contact Us</Navbar.Link>
+        <Navbar.Link href="/contactus">Contact Us</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
  <div className="h-screen">
