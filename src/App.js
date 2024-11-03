@@ -10,8 +10,8 @@ function App() {
     <div className="flex flex-col">
          <Navbar fluid rounded>
       <Navbar.Brand href="https://flowbite-react.com">
-        <img src="/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite React</span>
+        <img src="https://res.cloudinary.com/bn47/image/upload/v1730644986/md-gardeners_uldkoq.png" className="mr-3 h-24 w-24 sm:h-9" alt="Flowbite React Logo" />
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">DM Landscapers</span>
       </Navbar.Brand>
       <div className="flex md:order-2">
         <Button>Get started</Button>
@@ -22,26 +22,23 @@ function App() {
           Home
         </Navbar.Link>
         <Navbar.Link href="#">About</Navbar.Link>
-        <Navbar.Link href="#">Services</Navbar.Link>
-        <Navbar.Link href="#">Pricing</Navbar.Link>
-        <Navbar.Link href="#">Contact</Navbar.Link>
+        <Navbar.Link href="#">Our Work</Navbar.Link>
+        <Navbar.Link href="#">Contact Us</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
- <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+ <div className="h-screen">
       <Carousel>
-        <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
+        <img src="https://res.cloudinary.com/bn47/image/upload/v1730644004/IMG-20241103-WA0033_xvowin.jpg" alt="..." />
+        <img src="https://res.cloudinary.com/bn47/image/upload/v1730644001/IMG-20241103-WA0016_fupmda.jpg" alt="..." />
+        <img src="https://res.cloudinary.com/bn47/image/upload/v1730644001/IMG-20241103-WA0003_lt6xwd.jpg" alt="..." />
       </Carousel>
     </div>
 
-    <div>
+    <div className="flex flex-row space-x-4 justify-center mt-20">
     <Card
       className="max-w-sm"
       imgAlt="Meaningful alt text for an image that is not purely decorative"
-      imgSrc="/images/blog/image-1.jpg"
+      imgSrc="https://res.cloudinary.com/bn47/image/upload/v1730644004/IMG-20241103-WA0033_xvowin.jpg"
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         Noteworthy technology acquisitions 2021
@@ -53,7 +50,7 @@ function App() {
     <Card
       className="max-w-sm"
       imgAlt="Meaningful alt text for an image that is not purely decorative"
-      imgSrc="/images/blog/image-1.jpg"
+      imgSrc="https://res.cloudinary.com/bn47/image/upload/v1730644001/IMG-20241103-WA0016_fupmda.jpg"
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         Noteworthy technology acquisitions 2021
@@ -65,7 +62,7 @@ function App() {
     <Card
       className="max-w-sm"
       imgAlt="Meaningful alt text for an image that is not purely decorative"
-      imgSrc="/images/blog/image-1.jpg"
+      imgSrc="https://res.cloudinary.com/bn47/image/upload/v1730644001/IMG-20241103-WA0003_lt6xwd.jpg"
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         Noteworthy technology acquisitions 2021
