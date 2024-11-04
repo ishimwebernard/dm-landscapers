@@ -28,7 +28,7 @@ export default function Contact(){
     </Navbar>
     <div className="bg-[url('https://res.cloudinary.com/bn47/image/upload/v1730644004/IMG-20241103-WA0033_xvowin.jpg')] bg-cover h-96">
         <div className="w-full bg-black/50 flex flex-col justify-center items-center h-full">
-        <p className="text-white text-4xl">About us</p>
+        <p className="text-white text-4xl">Contact us</p>
         </div>
     </div>
   <div className="flex flex-col justify-center items-center">
