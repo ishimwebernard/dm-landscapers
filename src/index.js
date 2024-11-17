@@ -5,7 +5,9 @@ import './index.css';
 import App from './App';
 import AboutUs from './aboutus'
 import Contact from './contactus'
+import OurWork from "./ourwork";
 import reportWebVitals from './reportWebVitals';
+
 
 
 const router = createBrowserRouter([
@@ -20,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/contactus",
     element: <Contact />
+  },
+  {
+    path: "/ourwork",
+    element: <OurWork />
   }
 
 ])

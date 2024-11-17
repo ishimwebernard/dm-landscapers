@@ -7,6 +7,7 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
 
 
 import './App.css';
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">MD Landscapers</span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button>Get started</Button>
+        <a href="/contactus">
+        <Button>Get started</Button></a>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
@@ -25,7 +27,7 @@ function App() {
           Home
         </Navbar.Link>
         <Navbar.Link href="/about">About</Navbar.Link>
-        <Navbar.Link href="#">Our Work</Navbar.Link>
+        <Navbar.Link href="/ourwork">Our Work</Navbar.Link>
         <Navbar.Link href="/contactus">Contact Us</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>

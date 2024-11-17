@@ -12,7 +12,8 @@ export default function AboutUs(){
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">MD Landscapers</span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button>Get started</Button>
+      <a href="/contactus">
+      <Button>Get started</Button></a>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
@@ -20,7 +21,7 @@ export default function AboutUs(){
           Home
         </Navbar.Link>
         <Navbar.Link href="/about" active>About</Navbar.Link>
-        <Navbar.Link href="#">Our Work</Navbar.Link>
+        <Navbar.Link href="/ourwork`">Our Work</Navbar.Link>
         <Navbar.Link href="/contactus">Contact Us</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
@@ -65,21 +66,28 @@ All products      </p>
 
     <div>
         <p className="text-2xl text-center font-bold mt-10 mb-6">Meet the team</p>
-        <div className="flex flex-col justify-center items-center">
-        <div className="grid grid-cols-2 space-x-2 py-24">
-        <Card className="max-w-sm" imgSrc="https://res.cloudinary.com/bn47/image/upload/v1730644986/md-gardeners_uldkoq.png" horizontal>
+        <div className="flex flex-col  items-center">
+        <div className="grid grid-cols-2 space-x-2 py-24 space-y-4">
+        <Card className="max-w-sm" imgSrc="https://res.cloudinary.com/bn47/image/upload/v1731871511/maur-y_stgtyu.jpg" horizontal>
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
       Team leader (Senior Landscaper)
       </h5>
       <p className="font-normal text-gray-700 dark:text-gray-400">
-      Maureen Yairo is a graduate in horticulture with a BSc in Horticulture who has vast experience in landscape management and horticulture value chains. She graduated from the Lilongwe University of Agriculture and Natural Resources in 2019. She has worked for LUANAR as lab assistant for one year from 2020 to 2021. Prior to that she has also worked with Child Legacy and Bvumbwe Research in horticulture field.      </p>
+      Maureen Misomali is a graduate with a BSc in Horticulture who has vast experience in landscape management and horticulture value chains. She graduated from the Lilongwe University of Agriculture and Natural Resources. She has worked for LUANAR as lab assistant. Prior to that she has also worked with Child Legacy and Bvumbwe Research Station in horticulture field before joining MD Landscapers as our team leader. She is responsible for day-to-day managing of the company      </p>
     </Card>
-    <Card className="max-w-sm" imgSrc="https://res.cloudinary.com/bn47/image/upload/v1730644986/md-gardeners_uldkoq.png" horizontal>
+    <Card className="max-w-sm" imgSrc="https://res.cloudinary.com/bn47/image/upload/v1731871511/arthur-mak_ehtexk.jpg" horizontal>
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      Landscape designer
-      </h5>
+      Lead Landscape Architect  
+            </h5>
       <p className="font-normal text-gray-700 dark:text-gray-400">
-      Carolyn Lungu is a graduate in horticulture with a BSc in Horticulture who has vast experience in landscape management and horticulture value chains. She graduated from the Lilongwe University of Agriculture and Natural Resources in 2019. She works with ministry of works as an architecture from 2020 to 2023.      </p>
+      Carolyn Lungu is a graduate with a BSc in Horticulture who has vast experience in landscape management and horticulture value chains. She graduated from the Lilongwe University of Agriculture and Natural Resources. She has worked with the Ministry of Transport and Public works in Malawi as a Landscape architect before joining MD Landscapers. She is responsible for the daily review of proposed designs and formulation of site designs from the scratch into 3D, aerial view and basic dimensions        </p>
+    </Card>
+    <Card className="max-w-sm" imgSrc="https://res.cloudinary.com/bn47/image/upload/v1731871511/smart-may_un0ecg.jpg" horizontal>
+      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Operations Officer        
+          </h5>
+      <p className="font-normal text-gray-700 dark:text-gray-400">
+      Arthur Makina is a graduate with a BSc in Enterprise Development and Microfinance from Lilongwe University of Agriculture and Natural Resources. He brings two years of experience from a reputable Micro Finance Institution. His work involves  contract management and negotiations to give our customers best value for money          </p>
     </Card>
         </div>
         </div>
